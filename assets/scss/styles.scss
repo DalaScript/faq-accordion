@@ -1,0 +1,213 @@
+/* fonts
+ ******************************/
+/* Work Sans font
+ ***************/
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+/* Colors
+ ******************************/
+/* Primary
+ ***************/
+$dark-purple: #301534;
+$pale-purple: #8B6990;
+$pink: #AD28EB;
+$light-pink: #F8EEFF;
+$white: #FFFFFF;
+
+/* Global Variables
+ ******************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: $light-pink;
+}
+
+picture {
+    display: flex;
+}
+
+/* Body Variables
+ ******************************/
+main {
+    padding: 142.5px 24px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;
+}
+
+// background image
+.bg-img {
+    width: 100%;
+    height: 232px;
+    object-fit: cover;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.faq-card {
+    padding: 24px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 8px;
+
+    background-color: $white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    box-shadow: 0px 32px 56px #5000761a;
+
+    z-index: 1;
+
+    &__title-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+
+    &__logo {
+        width: 24px;
+        height: 24px;
+    }
+
+    &__title {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+
+        color: $dark-purple;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__group {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: left;
+        
+        color: $dark-purple;
+      
+        background: none;
+        border: none;
+    }
+
+    &__icon {
+        max-width: none;
+        width: 30px;
+        height: 30px;
+    }
+
+    &__answer {
+        display: none;
+
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+      
+        color: $pale-purple;
+
+        &--active {
+            display: block;
+        }
+    }
+
+    &__line {
+        height: 1px;
+        background-color: $light-pink;
+    }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .faq-card {
+        &__btn {
+            cursor: pointer;
+      
+            transition: color .5s ease-out;
+            &:hover {
+                color: $pink;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 648px) {
+    .bg-img {
+        height: 320px;
+    }
+
+    main {
+        padding: 167.5px 0;
+    }
+    
+    .faq-card {
+        padding: 40px;
+        border-radius: 16px;
+
+        gap: 32px;
+
+        &__logo {
+            width: 40px;
+            height: 40px;
+        }
+
+        &__title {
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 66px;
+        }
+
+        &__content {
+            gap: 24px;
+        }
+
+        &__btn {
+            font-size: 18px;
+            line-height: 21px;
+
+            gap: 0;
+        }
+
+        &__answer {
+            font-size: 16px;
+        }
+    }
+}

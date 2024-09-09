@@ -16,7 +16,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 - [Author](#author)
   - [Connect with Me](#Connect-with-Me)
   - [Coding Profiles](#Coding-Profiles)
-  - [Professional Links](#Professional-Links)
 
 ## Overview
 
@@ -36,7 +35,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/DalaScript/faq-accordion)
-- [Live Site URL](https://dalascript.github.io/faq-accordion/)
+- [Live Site URL](https://DalaScript.github.io/faq-accordion/)
 
 ## My process
 
@@ -46,6 +45,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- JavaScript
 - bem - [Block Element Modifier](https://getbem.com/introduction/)
 - scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
 
@@ -69,15 +69,10 @@ First I want to finish the javascript course I'm taking on freecodecamp, I'm als
 
 - [Instagram](https://www.instagram.com/DalaScript)
 - [YouTube](https://www.youtube.com/@DalaScript)
-- [TikTok](https://www.tiktok.com/@Dalascript)
+- [TikTok](https://www.tiktok.com/@CodeWithDala)
 
 ### Coding Profiles
 
 - [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
 - [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
 - [GitHub](https://github.com/DalaScript)
-
-### Professional Links
-
-- [LinkedIn](https://www.linkedin.com/in/nikadalalishvili/)
-- [UpWork](https://www.upwork.com/freelancers/~01fcf99c6c9609988e)

@@ -62,7 +62,7 @@ Users should be able to:
 
 ### 🔜 Next Challenge
 
-  - Faq Accordion | *Challenge 8* → [View Repository](https://github.com/DalaScript/faq-accordion)
+  - Workit Landing Page | *Challenge 8* → [View Repository](https://github.com/DalaScript/workit-landing-page)
 
 ---
 
